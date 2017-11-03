@@ -23,6 +23,8 @@ try {
 
     // set the resulting array to associative
     $result = $stmt->fetchALL(PDO::FETCH_ASSOC); 
+    print_r(count($result));
+    echo"<br>";
     
 
     echo '<table border="1"><tr>';
